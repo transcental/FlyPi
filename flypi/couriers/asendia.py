@@ -20,5 +20,4 @@ class Asendia(CourierFetcher):
                 data=None,
             ) as response:
                 data = await response.json()
-                print(data)
                 return data
