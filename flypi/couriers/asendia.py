@@ -1,7 +1,6 @@
 import aiohttp
 
-from flypi.types import CourierFetcher
-from flypi.types import ShipmentStatus
+from flypi.types import CourierFetcher, ShipmentStatus
 from flypi.utils import env
 
 
